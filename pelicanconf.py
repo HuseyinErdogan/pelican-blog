@@ -1,7 +1,7 @@
 AUTHOR = 'Hüseyin Erdoğan'
 SITENAME = 'Huseyin Blog'
 SITEURL = ""
-# THEME = "/srv/pelican/theme-basic/basic"
+THEME = "/srv/pelican/themes/bootstrap"
 # THEME = "/home/huseyin/Desktop/plateau-tasks/pelican-documentary/theme-basic/basic"
 PATH = "content"
 
