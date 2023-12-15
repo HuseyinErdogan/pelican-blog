@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  pelican:
+    build:
+      context: .
+    image: pelican-test
+    ports:
+      - "8000:8000"
+    # volumes:
+    #   - ./content:/content
+    #   - ./output:/output
+
