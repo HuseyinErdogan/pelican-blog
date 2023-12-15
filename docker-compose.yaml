@@ -1,13 +1,9 @@
 version: '3'
 
 services:
-  pelican:
+  web:
     build:
       context: .
-    image: pelican-test
+    image: nginx-server
     ports:
-      - "8000:8000"
-    # volumes:
-    #   - ./content:/content
-    #   - ./output:/output
-
+      - "80:80"

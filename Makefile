@@ -17,7 +17,7 @@ endif
 RELATIVE ?= 0
 ifeq ($(RELATIVE), 1)
 	PELICANOPTS += --relative-urls
-endif
+endif 
 
 SERVER ?= "0.0.0.0"
 
